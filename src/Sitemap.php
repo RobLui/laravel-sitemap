@@ -64,7 +64,6 @@ class Sitemap
     public function writeToFile(string $path): self
     {
         file_put_contents($path, $this->render());
-
         return $this;
     }
 }

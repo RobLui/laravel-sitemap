@@ -30,6 +30,7 @@ class SitemapIndex
         }
 
         $this->tags[] = $tag;
+        echo $tag;
 
         return $this;
     }
